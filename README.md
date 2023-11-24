@@ -1,5 +1,6 @@
 # S3MemoryFreer
 Simple little .asi thing to (currently) send you a message when you're close to hitting the sims 3 memory limit. Doesn't actually free anything (for now)
+Download in the [releases tab](https://github.com/sims3fiend/S3MemoryFreer/releases)
 
 # How to
 I'm not sure if this will work on other versions of the game, as I only have access to the steam one. As the memory editing part is tied to a static address, I wouldn't be surprised if it messed something up on the origin/EA version, so give it a go first before needing to rely on it. It should be fine tho. The other feature(s) are fine to use.
