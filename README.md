@@ -6,7 +6,7 @@ Download in the [releases tab](https://github.com/sims3fiend/S3MemoryFreer/relea
 I'm not sure if this will work on other versions of the game, as I only have access to the steam one. As the memory editing part is tied to a static address, I wouldn't be surprised if it messed something up on the origin/EA version, so give it a go first before needing to rely on it. It should be fine tho. The other feature(s) are fine to use.
 
 You'll either need the [smooth patch ASI loader](https://modthesims.info/d/658759/smooth-patch.html) or [dxwrapper](https://github.com/elishacloud/dxwrapper)'s, then just pop the file into your `The Sims 3\Game\Bin` folder along with either of them. 
-Don't use fullscreen mode otherwise you wont see the notification.
+Don't use fullscreen mode otherwise you wont see the notification. If using dxwrapper, make sure you set LoadPlugins to 1
 
 # Config / Features
 The config file should be pretty self explanatory, but I'll go into more depth here about a couple of the values.
