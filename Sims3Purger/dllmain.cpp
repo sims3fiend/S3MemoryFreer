@@ -103,7 +103,7 @@ void GenerateDefaultIniFile()
             iniFile << "ModifyMemoryHotkey=119; Virtual key code for NOP/Forcing High detail lots to 0. This is F8." << std::endl;
             iniFile << "ModifyMemory=0; Auto NOP. Does nothing and I need to delete this and below" << std::endl;
             iniFile << "DisableWorkingSetClear=0; Disables memory 'clearing'/trim working set and HeapCompact feature. Does nothing because I removed it opting for hotkey instead :)" << std::endl;
-            iniFile << "Threshold=2900; Memory in MB to triger warning. I recommend 2.9gb but you can probably get away with 3. This is not total usage, assume there's an extra .6gb. Saving adds an extra 100-200mb sometimes." << std::endl;
+            iniFile << "Threshold=2800; Memory in MB to triger warning. I recommend 2.7gb but you can probably get away with 2.8. This is not total usage, assume there's an extra .6gb. Saving adds an extra 100-700mb(!) sometimes.." << std::endl;
 
             iniFile.close();
 
